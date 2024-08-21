@@ -1,0 +1,6 @@
+.enw 
+logs/
+*.log
+.*
+!.gitignore 
+node_modules/
