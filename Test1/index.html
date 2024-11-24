@@ -7,25 +7,30 @@
   <body>
     <header>
       <h1 title="Значення атрибуту title" id="heading" class="main-heading">
-        Головна сторінка 12324
+        Головна сторінка
       </h1>
 
-      <aside>
-        <nav>
-          <ul>
-            <li>
-              <h2><a href="#Невпорядкований">Невпорядкований</a></h2>
-            </li>
-            <li>
-              <h3><a href="#Впорядкований">Впорядкований</a></h3>
-            </li>
-          </ul>
-        </nav>
-      </aside>
-      <h4>Головна сторінка</h4>
-      <h5>Головна сторінка</h5>
-      <h6>Головна сторінка</h6>
+      <nav>
+        <ul>
+          <li><a href="./pages/contacts.html">Контакти</a></li>
+          <li><a href="./pages/about.html">Про нас</a></li>
+          <li><a href="./pages/delivery.html">Доставка</a></li>
+        </ul>
+      </nav>
     </header>
+
+    <aside>
+      <h2>Зміст</h2>
+      <nav>
+        <ul>
+          <li><a href="#впорядкований">До впорядкованого списку</a></li>
+          <li><a href="#невпорядкований">До невпорядкованого списку</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <a href="https://youtube.com" target="_blank">До Ютубу</a>
+
     <main>
       <form>
         <input />
@@ -37,7 +42,7 @@
 
       <p title="p title">Якийсь <b>текст</b></p>
 
-      <h2 id="Невпорядкований">Невпорядкований список:</h2>
+      <h2 id="невпорядкований">Невпорядкований список :</h2>
       <ul>
         <li>елемент 1</li>
         <li>елемент 2</li>
@@ -52,25 +57,37 @@
         </li>
       </ul>
 
-      <h2 id="Впорядкований">Впорядкований список:</h2>
-      <ol>
-        <li>елемент 1</li>
-        <li>елемент 2</li>
-        <li>елемент 3</li>
-        <li>елемент 4</li>
-      </ol>
+      <section>
+        <header>
+          <h2 id="впорядкований">Впорядкований список :</h2>
+        </header>
+
+        <ol>
+          <li>елемент 1</li>
+          <li>елемент 2</li>
+          <li>елемент 3</li>
+          <li>елемент 4</li>
+        </ol>
+
+        <section><h3>Підрозділ 1</h3></section>
+
+        <section><h3>Підрозділ 2</h3></section>
+        <footer></footer>
+      </section>
 
       <img
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/RedCat_8727.jpg/1200px-RedCat_8727.jpg"
         alt="Sleeping cat"
       />
+
       <img
         src="https://upload.asdsad.org/wikipedia/commons/thumb/4/48/RedCat_8727.jpg/1200px-RedCat_8727.jpg"
         alt="Sleeping cat"
       />
       <img src="images/cat.jpg" alt="Sleeping cat" />
-      <a href="#">Начало</a>
+      <a href="#">Догори</a>
     </main>
+
     <footer>
       <p>All rights reserved. Made by Prepod</p>
     </footer>
